@@ -14,7 +14,7 @@ int main()
     // inserts 15 to the last position
     v.push_back(15);
     int n = v.size();
-    cout << "\nThe last element is: " << v[n - 1];
+    cout << "\nThe last element is : " << v[n - 1];
 
     // removes last element
     v.pop_back();
